@@ -15,10 +15,18 @@ const Home = (props) => {
 
           <TypewriterComp></TypewriterComp>
         </div>
+        <div className="  flex flex-col md:flex-row items-center justify-center gap-1  absolute top-0 left-0 z-[2] w-full h-full">
+          <button className="btn text-white text-xl md:text-2xl bg-[#1D4ED880] border-[2px] hover:bg-blue-700 ">
+            Explore Student Profiles
+          </button>
+          <button className="btn text-white text-xl md:text-2xl bg-[#1D4ED880] border-[2px] hover:bg-blue-700">
+            Create Your Profile
+          </button>
+        </div>
         <div>
           <p className="absolute bottom-[10%] z-[2] text-xl md:text-2xl text-white text-left bg-[#1D4ED880] p-3 px-5 max-w-[500px]">
-            Discover profiles of talented students from, stay updated,
-             and build connections that matter.
+            Discover profiles of talented students from, stay updated, and build
+            connections that matter.
           </p>
         </div>
       </div>
