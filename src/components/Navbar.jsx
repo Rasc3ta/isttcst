@@ -28,13 +28,13 @@ const Navbar = () => {
                   </svg>
                 </label>
               </div>
-              <div className="drawer-side">
+              <div className="drawer-side ">
                 <label
                   htmlFor="my-drawer"
                   aria-label="close sidebar"
-                  className="drawer-overlay"
+                  className="drawer-overlay "
                 ></label>
-                <ul className="menu bg-blue-700 text-white flex flex-col gap-1  min-h-full w-[200px] p-4">
+                <ul className="menu bg-blue-700 text-white flex flex-col gap-1 z-10  min-h-full w-[200px] p-4 ">
                   {/* Sidebar content here */}
                   <li className="flex items-center justify-center border-[2px] border-blue-700">
                     <a>Sidebar Item 1</a>
